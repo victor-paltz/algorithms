@@ -3,8 +3,8 @@ from itertools import permutations, product, combinations
 
 import numpy as np
 
-from constants import NB_AVIONS
-from perm_functions import rev_perm
+from solver.constants import NB_AVIONS
+from solver.perm_functions import rev_perm
 
 
 def all_permutations(support):

@@ -1,10 +1,11 @@
 import numpy as np
 
-from perm_functions import load_perm
+from solver.perm_functions import load_perm
 
 # Read the input file
 with open("data/input_10.txt", "r") as f:
     s = f.read()
+    
 t = s.strip().split("\n")
 
 # Create the constants of the problem
